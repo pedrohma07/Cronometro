@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Digital;
+    src: url("../assets/fonts/ds-digital/DS-DIGIT.TTF");
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Digital, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+}
+h1{
+    font-size: 150px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 70px;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+    box-shadow: none;
+}
+
+.iniciar{
+    background-color: green;
+    color: white;
+}
+
+.pausar{
+    background-color: yellow;
+    color: black;
+}
+
+.parar{
+    background-color: red;
+    color: black;
+}
