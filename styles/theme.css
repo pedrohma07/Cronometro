@@ -4,7 +4,7 @@ body{
     align-items: center;
     justify-content: center;
 
-
+    width: 99vw;
     height: 100vh;
     transition: background 0.2s linear;
 }
@@ -51,7 +51,24 @@ body{
 .check:checked + .label .ball{
     transform: translateX(12px);
 }
-.ligth{
+.light{
     background-color: aliceblue;
     border: 1px solid antiquewhite;
 }
+body::-webkit-scrollbar {
+    width: 7px;               
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(233, 191, 132);    
+}
+body::-webkit-scrollbar-track {
+    background: antiquewhite;        
+} 
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(228, 228, 228);    
+    border-radius: 20px;       
+    border: 1px solid rgb(228, 228, 228);  
+}
+  

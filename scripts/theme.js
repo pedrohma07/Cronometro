@@ -3,7 +3,7 @@ const check = document.getElementById("check");
 check.addEventListener("change", () =>{
     document.body.classList.toggle("dark");
     document.body.l
-    document.getElementsByClassName("label")[0].classList.toggle("ligth"); 
+    document.getElementsByClassName("label")[0].classList.toggle("light"); 
     
     let aux = document.getElementsByClassName("ball")[0].style.background;
     if(aux == "rgb(35, 44, 53)"){
